@@ -33,13 +33,18 @@
 body {
   background-color: red;
   font-family: var(--mainFont);
+  height: 100vh;
+}
+
+.head {
+  background-color: var(--heroFooterBg);
+  padding: 0 400px;
 }
 
 .header {
   display: flex;
-  justify-content: space-around;
+  justify-content: space-between;
   align-items: center;
-  background-color: var(--heroFooterBg);
 }
 
 .logo {
@@ -60,4 +65,55 @@ body {
   font-size: var(--heroSecondaryFontSize);
   color: var(--heroSecondaryFontolor);
   text-decoration: none;
+}
+
+.hero h1 {
+  font-size: var(--heroMainFontSize);
+  color: var(--heoroMainFontColor);
+  font-weight: bolder;
+}
+
+.hero p {
+  font-size: var(--heroSecondaryFontSize);
+  color: var(--heroSecondaryFontolor);
+}
+
+.hero {
+  background-color: var(--heroFooterBg);
+  display: flex;
+  padding: 80px 0;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.hero button {
+  background-color: var(--buttonActionColor);
+  font-size: 18px;
+  font-weight: bold;
+  color: var(--heoroMainFontColor);
+  border: none;
+  border-radius: 10px;
+  padding: 10px 35px;
+}
+
+.hero-img {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #6d747d;
+  height: 250px;
+  width: 500px;
+  font-size: var(--heroSecondaryFontSize);
+  color: var(--heroSecondaryFontolor);
+}
+
+.hero-left {
+  display: flex;
+  flex-direction: column;
+  align-items: start;
+  gap: 15px;
+  width: 450px;
+}
+
+.hero-right {
 }
