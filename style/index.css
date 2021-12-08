@@ -4,6 +4,8 @@
   box-sizing: inherit;
 }
 :root {
+  --mainFont: 'Roboto', sans-serif;
+
   /* hero and footer fonts and colors */
   --heroFooterBg: #1f2937;
 
@@ -30,6 +32,7 @@
 
 body {
   background-color: red;
+  font-family: var(--mainFont);
 }
 
 .header {
