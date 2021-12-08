@@ -38,7 +38,7 @@ body {
 
 .head {
   background-color: var(--heroFooterBg);
-  padding: 0 400px;
+  padding: 0 300px;
 }
 
 .header {
@@ -61,9 +61,14 @@ body {
   gap: 35px;
 }
 
-.head-links a {
+.head-links a,
+.hero p,
+.hero-img {
   font-size: var(--heroSecondaryFontSize);
   color: var(--heroSecondaryFontolor);
+}
+
+.head-links a {
   text-decoration: none;
 }
 
@@ -71,11 +76,6 @@ body {
   font-size: var(--heroMainFontSize);
   color: var(--heoroMainFontColor);
   font-weight: bolder;
-}
-
-.hero p {
-  font-size: var(--heroSecondaryFontSize);
-  color: var(--heroSecondaryFontolor);
 }
 
 .hero {
@@ -90,10 +90,10 @@ body {
   background-color: var(--buttonActionColor);
   font-size: 18px;
   font-weight: bold;
-  color: var(--heoroMainFontColor);
   border: none;
   border-radius: 10px;
   padding: 10px 35px;
+  color: var(--heoroMainFontColor);
 }
 
 .hero-img {
@@ -103,8 +103,6 @@ body {
   background-color: #6d747d;
   height: 250px;
   width: 500px;
-  font-size: var(--heroSecondaryFontSize);
-  color: var(--heroSecondaryFontolor);
 }
 
 .hero-left {
@@ -113,7 +111,4 @@ body {
   align-items: start;
   gap: 15px;
   width: 450px;
-}
-
-.hero-right {
 }
