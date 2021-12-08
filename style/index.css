@@ -4,7 +4,28 @@
   box-sizing: inherit;
 }
 :root {
-  --baseFontSize: 1rem;
+  /* hero and footer fonts and colors */
+  --heroFooterBg: #1f2937;
+
+  --heroMainFontSize: 48px;
+  --heoroMainFontColor: #f9faf8;
+
+  --heroSecondaryFontSize: 18px;
+  --heroSecondaryFontolor: #e5e7eb;
+
+  --headerLogoFontSize: 24px;
+  --headerLogoFontColor: var(--heoroMainFontColor);
+
+  /* button call to action fonts and colors */
+  --buttonActionColor: #3882f6;
+
+  --infoTextFontSize: 36px;
+  --infoTextFontColor: var(--heroFooterBg);
+
+  /* quote section fonts and colors */
+  --quoteSectionBg: var(--heroSecondaryFontolor);
+  --quoteTextFontSize: 36px;
+  --quoteTextFontColor: var(--heroFooterBg);
 }
 
 body {
