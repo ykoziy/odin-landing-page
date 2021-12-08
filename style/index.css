@@ -25,7 +25,7 @@
   --infoTextFontColor: var(--heroFooterBg);
 
   /* quote section fonts and colors */
-  --quoteSectionBg: var(--heroSecondaryFontolor);
+  --quoteSectionBg: var(--heroSecondaryFontColor);
   --quoteTextFontSize: 36px;
   --quoteTextFontColor: var(--heroFooterBg);
 }
@@ -50,7 +50,7 @@ body {
 .logo {
   font-size: var(--headerLogoFontSize);
   color: var(--headerLogoFontColor);
-  font-weight: bolder;
+  font-weight: 900;
   height: 60px;
   display: flex;
   align-items: center;
@@ -76,7 +76,7 @@ body {
 .information h2 {
   font-size: var(--heroMainFontSize);
   color: var(--heoroMainFontColor);
-  font-weight: bolder;
+  font-weight: 900;
 }
 
 .hero {
@@ -109,7 +109,7 @@ body {
 .hero-left {
   display: flex;
   flex-direction: column;
-  align-items: start;
+  align-items: flex-start;
   gap: 15px;
   margin-right: 350px;
 }
@@ -117,7 +117,7 @@ body {
 .information h2 {
   color: var(--infoTextFontColor);
   font-size: var(--infoTextFontSize);
-  font-weight: bolder;
+  font-weight: 900;
   margin: 40px 0;
 }
 
@@ -152,4 +152,28 @@ body {
 
 .card-img-text {
   text-align: center;
+}
+
+.quote {
+  background-color: var(--quoteSectionBg);
+  font-size: var(--quoteTextFontSize);
+  color: var(--quoteTextFontColor);
+  display: flex;
+  flex-direction: column;
+  align-items: flex-end;
+  padding: 100px 400px;
+  gap: 25px;
+}
+
+.quote blockquote {
+  font-style: italic;
+}
+
+.quote-author p {
+  font-size: var(--headerLogoFontSize);
+  font-weight: 900;
+}
+
+.quote-author {
+  padding-right: 60px;
 }
