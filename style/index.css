@@ -31,3 +31,30 @@
 body {
   background-color: red;
 }
+
+.header {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  background-color: var(--heroFooterBg);
+}
+
+.logo {
+  font-size: var(--headerLogoFontSize);
+  color: var(--headerLogoFontColor);
+  font-weight: bolder;
+  height: 60px;
+  display: flex;
+  align-items: center;
+}
+
+.head-links ul {
+  display: flex;
+  gap: 35px;
+}
+
+.head-links a {
+  font-size: var(--heroSecondaryFontSize);
+  color: var(--heroSecondaryFontolor);
+  text-decoration: none;
+}
