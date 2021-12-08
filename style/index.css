@@ -110,5 +110,5 @@ body {
   flex-direction: column;
   align-items: start;
   gap: 15px;
-  width: 450px;
+  margin-right: 350px;
 }
