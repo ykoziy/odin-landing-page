@@ -29,10 +29,11 @@
   --quoteSectionBg: var(--heroSecondaryFontColor);
   --quoteTextFontSize: 36px;
   --quoteTextFontColor: var(--heroFooterBg);
+
+  --footerFontSize: 17px;
 }
 
 body {
-  background-color: red;
   font-family: var(--mainFont);
   height: 100vh;
 }
@@ -220,4 +221,16 @@ h3 {
 .action-box button {
   border: 2px solid white;
   margin-left: 250px;
+}
+
+.footer {
+  display: flex;
+  justify-content: center;
+  background-color: var(--heroFooterBg);
+  color: var(--headerLogoFontColor);
+  padding: 35px 0;
+}
+
+.footer p {
+  font-size: var(--footerFontSize);
 }
